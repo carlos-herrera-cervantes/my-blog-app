@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Jocker Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" href="/img/favicon.png" />
+  </head>
+  <body>
+    <div class="main-content">
+      {{>header}}
+      {{>nav}}
+      <article class="box">
+        <h3><i class="fas fa-allergies"></i> Bienvenido a mi portafolio</h3>
+        <p>Mi nombre es Carlos Herrera y soy desarrollador de tecnologías .NET con experiencia
+          de 1 año.</p>
+        <p>Actualmente me encuentro en Acapulco desarollando para Juflo Tecnología Informática.
+          Una pequeña empresa que está en crecimiento.</p>
+      </article>
+      <article class="box-2">
+        <h3><i class="fas fa-address-card"></i> Contacto</h3>
+        <p>Cualquier pregunta sobre mi experiencia o trabajo no dudes en contactarme.</p>
+        <ul>
+          <li><i class="fas fa-envelope"></i> carlos.cervantes.cp@gmail.com</li>
+          <li><i class="fas fa-phone"></i> +52 7441463313</li>
+        </ul>
+        <p>También te invito a que pases por mi repositorio en Github par que puedas
+          revisar mis prácticas de programación.</p>
+        <ul>
+          <li><i class="fab fa-github"></i> <a href="https://github.com/carlos13320900" target="_blank">Github</a></li>
+        </ul>
+      </article>
+    </div>
+    {{>footer}}
+  </body>
+</html>

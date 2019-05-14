@@ -1,0 +1,133 @@
+/* REVIEW: Para elementos del marcado */
+
+body {
+  color: white;
+  background-color: #1f1560;
+  font-family: arial;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #52c858;
+}
+
+nav {
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: #52c858;
+  padding: 10px;
+}
+
+nav a {
+  font-size: 20px;
+  margin-left: 16px;
+  transition: width 1s, color 1s;
+}
+
+nav a:hover {
+  color: #d90a0a;
+}
+
+article {
+  margin-top: 16px;
+}
+
+ul li {
+  line-height: 25px;
+}
+
+footer {
+  font-size: 12px;
+  color: white;
+  border-top: 1px solid #52c858;
+  max-width: 100%;
+  margin-top: 16px;
+  padding: 16px 100px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+/* REVIEW: Para estilos sobre elementos del marcado */
+.big-title {
+  font-size: 150px;
+}
+
+/* REVIEW: Para contenedores */
+
+.main-content {
+  flex-grow: 1;
+}
+
+.row {
+  display: grid;
+  grid-template-areas: "a a";
+  grid-gap: 50px;
+  grid-auto-rows: 200px;
+  margin: 0 auto;
+}
+
+.box {
+  text-align: justify;
+  background-color: #2e4053;
+  border-radius: 20px;
+  border-left: 7px solid #52c858;
+  padding: 16px;
+  transition: 1s;
+}
+
+.box:hover {
+  border-left: 7px solid #d90a0a;
+  transition: 1s;
+}
+
+.box-2 {
+  text-align: justify;
+  background-color: #2e4053;
+  border-radius: 20px;
+  border-left: 7px solid #f4d03f;
+  padding: 16px;
+  transition: 1s;
+}
+
+.box-2:hover {
+  border-left: 7px solid #961cb7;
+  transition: 1s;
+}
+
+/* REVIEW: Para márgenes y alineaciones */
+
+.width-md {
+  width: 200px;
+  height: 100%;
+}
+
+.width-md-2 {
+  width: 400px;
+  height: 100%;
+}
+
+.margin-tp-2 {
+  margin-top: 50px;
+}
+
+.center {
+  text-align: center;
+}
