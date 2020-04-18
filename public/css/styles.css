@@ -151,3 +151,10 @@ p {
   border-radius: 50%;
   border: 5px solid #52c858;
 }
+
+.round-square {
+  width: 80%;
+  height: 70%;
+  border-radius: 50%;
+  border: 5px solid #F39C12;
+}

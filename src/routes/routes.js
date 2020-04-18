@@ -2,10 +2,13 @@ const routes = app => {
   /** @region_snippet_routeIndex */
   app.get('/', (request, response) => response.render('index.hbs'));
 
-  /** @regions_snippet_routeProfile */
+  /** @region_snippet_routeProfile */
   app.get('/profile', (request, response) => response.render('profile.hbs'));
 
-  /** @regions_snippet_routeNotFound */
+  /** @region_snippet_routeGirlFriend */
+  app.get('/girlfriend', (request, response) => response.render('girlfriend.hbs'));
+
+  /** @region_snippet_routeNotFound */
   app.get('*', (request, response) => response.render('404.hbs'));
 };
 
