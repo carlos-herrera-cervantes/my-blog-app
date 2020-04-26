@@ -5,9 +5,6 @@ const routes = app => {
   /** @region_snippet_routeProfile */
   app.get('/profile', (request, response) => response.render('profile.hbs'));
 
-  /** @region_snippet_routeGirlFriend */
-  app.get('/girlfriend', (request, response) => response.render('girlfriend.hbs'));
-
   /** @region_snippet_routeNotFound */
   app.get('*', (request, response) => response.render('404.hbs'));
 };
