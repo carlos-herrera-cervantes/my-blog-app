@@ -1,9 +1,14 @@
 /* REVIEW: Para elementos del marcado */
 
+@font-face {
+  font-family: 'JetBrains';
+  src: url('../fonts/JetBrainsMono-Regular.woff2');
+}
+
 body {
   color: white;
   background-color: #3C4556;
-  font-family: arial;
+  font-family: 'JetBrains';
   max-width: 800px;
   margin: 0 auto;
   padding: 0 16px;
@@ -30,18 +35,18 @@ a:hover {
 nav {
   margin-bottom: 40px;
   border-radius: 20px;
-  background-color: #52c858;
+  background-color: #2471A3;
   padding: 10px;
 }
 
 nav a {
-  font-size: 20px;
+  font-size: 12px;
   margin-left: 16px;
   transition: width 1s, color 1s;
 }
 
 nav a:hover {
-  color: #d90a0a;
+  color: #52c858;
 }
 
 article {
@@ -55,7 +60,7 @@ ul li {
 footer {
   font-size: 12px;
   color: white;
-  border-top: 1px solid #52c858;
+  border-top: 1px solid #2471A3;
   max-width: 100%;
   margin-top: 16px;
   padding: 16px 100px;
@@ -132,12 +137,12 @@ h1 {
   background-color: #2e4053;
   border-radius: 20px;
   border-left: 7px solid #52c858;
-  padding: 16px;
+  padding: 1% 5%;
   transition: 1s;
 }
 
 .box:hover {
-  border-left: 7px solid #d90a0a;
+  border-left: 7px solid #BDC3C7;
   transition: 1s;
 }
 
@@ -146,12 +151,12 @@ h1 {
   background-color: #2e4053;
   border-radius: 20px;
   border-left: 7px solid #f4d03f;
-  padding: 16px;
+  padding: 1% 5%;
   transition: 1s;
 }
 
 .box-2:hover {
-  border-left: 7px solid #961cb7;
+  border-left: 7px solid #3498DB;
   transition: 1s;
 }
 
@@ -172,6 +177,7 @@ h1 {
 }
 
 p {
+  font-size: 12px;
   line-height: 25px;
 }
 
